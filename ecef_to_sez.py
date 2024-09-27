@@ -57,7 +57,6 @@ r_x_km = o_x_km
 r_y_km = o_y_km
 r_z_km = o_z_km
 
-#ECEF = [o_x_km-x_km,o_y_km-y_km,o_z_km-z_km]
 ECEF = [x_km-o_x_km,y_km-o_y_km,z_km-o_z_km]
 
 # calculate longitude
